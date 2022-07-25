@@ -1,0 +1,31 @@
+export default {
+  title: {
+    header: "TYEng Green House operation system",
+    footer: "TYEng smart control",
+    login: "Log In",
+    Please: "Please enter your personal details",
+    Sign: "sign up",
+    signin: "sign in",
+    use: "use your account",
+    Forgot: "forgot your password?",
+    Email: "Email",
+    Password: "Password with Toggle",
+    Hello: "Hello",
+  },
+  menu: {
+    nodeStatus: "Node Status",
+    nodeConfig: "Node Config",
+    nodeDefault: "Default Node",
+    nodeMaps: "Device Maps",
+  },
+  nodeStatus: {
+    read: "read",
+    set: "set",
+    down: "down",
+    Heat: "Heat",
+    Close: "Close",
+    On: "On",
+    Off: "Off",
+    stoppage: "stoppage",
+  },
+};

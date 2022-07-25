@@ -1,0 +1,42 @@
+{
+  "name": "tyweb",
+  "version": "0.0.1",
+  "private": true,
+  "description": "A TYEeng development project",
+  "author": "TYEng LTD",
+  "scripts": {
+    "lint": "eslint --ext .js,.vue ./",
+    "format": "prettier --write \"**/*.{js,vue,scss,html,md,json}\" --ignore-path .gitignore",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.6.6",
+    "@quasar/extras": "^1.0.0",
+    "@vue/apollo-composable": "^4.0.0-alpha.17",
+    "graphql": "^16.5.0",
+    "graphql-tag": "^2.12.6",
+    "mongodb": "^4.7.0",
+    "quasar": "^2.6.0",
+    "register-service-worker": "^1.7.2",
+    "socket.io-client": "^4.5.1",
+    "vue": "^3.0.0",
+    "vue-i18n": "^9.0.0",
+    "vue-router": "^4.0.0"
+  },
+  "devDependencies": {
+    "@intlify/vite-plugin-vue-i18n": "^3.3.1",
+    "@quasar/app-vite": "^1.0.0",
+    "@vue/cli-plugin-pwa": "~5.0.0",
+    "autoprefixer": "^10.4.2",
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-vue": "^8.5.0",
+    "prettier": "^2.5.1"
+  },
+  "engines": {
+    "node": "^18 || ^16 || ^14.19",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  },
+  "productName": "TYEng Web Development"
+}

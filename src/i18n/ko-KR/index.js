@@ -1,0 +1,30 @@
+export default {
+  title: {
+    header: "티와이이엔지 온실운영 시스템",
+    footer: "티와이엔지 스마트제어",
+    login: "로그인",
+    Hello: "안녕 친구!",
+    Please: "개인정보를 입력해주세요",
+    Sign: "가입하기",
+    signin: "로그인",
+    use: "귀하의 계정을 사용",
+    Forgot: "비밀번호를 잊어 버렸습니까 ?",
+    Email: "이메일",
+    Password: "토글이 있는 비밀번호",
+  },
+  menu: {
+    nodeStatus: "노드상태",
+    nodeConfig: "노드정보설정",
+    nodeDefault: "디폴트노드",
+    nodeMaps: "장치맵관리",
+  },
+  nodeStatus: {
+    read: "읽기",
+    set: "설정",
+    down: "멈춤",
+    Heat: "열기",
+    Close: "닫기",
+    On: "켜기",
+    Off: "끄기",
+  },
+};
